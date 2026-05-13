@@ -23,6 +23,6 @@ public class DocAutoConfiguration {
                 .info(new Info()
                         .title("XiaoYe Platform API")
                         .version("1.0.0")
-                        .description("XiaoYe Boot Starter 标准 API 文档"));
+                        .description("XiaoYe Boot Starter Standard API Documentation"));
     }
 }
