@@ -1,0 +1,50 @@
+{
+  "groups": [
+    {
+      "name": "xiaoye.doc",
+      "type": "com.xiaoye.starter.doc.config.XiaoyeDocProperties",
+      "description": "API 文档配置"
+    }
+  ],
+  "properties": [
+    {
+      "name": "xiaoye.doc.enabled",
+      "type": "boolean",
+      "description": "是否启用文档模块",
+      "defaultValue": true
+    },
+    {
+      "name": "xiaoye.doc.title",
+      "type": "java.lang.String",
+      "description": "API 文档标题",
+      "defaultValue": "XiaoYe API Documentation"
+    },
+    {
+      "name": "xiaoye.doc.version",
+      "type": "java.lang.String",
+      "description": "API 版本号",
+      "defaultValue": "1.0.0"
+    },
+    {
+      "name": "xiaoye.doc.description",
+      "type": "java.lang.String",
+      "description": "API 文档描述"
+    },
+    {
+      "name": "xiaoye.doc.author",
+      "type": "java.lang.String",
+      "description": "文档作者"
+    },
+    {
+      "name": "xiaoye.doc.url",
+      "type": "java.lang.String",
+      "description": "服务 URL"
+    },
+    {
+      "name": "xiaoye.doc.group-configs",
+      "type": "java.util.List<java.util.Map<java.lang.String, java.lang.String>>",
+      "description": "分组配置列表"
+    }
+  ],
+  "hints": []
+}
